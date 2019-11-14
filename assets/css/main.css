@@ -82,6 +82,31 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	.features {
+
+		display: flex;
+		flex-direction: column;
+		margin-left: 15%;
+		
+	}
+
+	
+
+	.feature {
+
+		display: flex;
+		flex-wrap: wrap;
+		
+		
+	}
+
+	.feature img {
+
+		width: 5%;
+		height: 5%;
+		margin-right: 2%;
+	}
+ 
 	body {
 		background: #fff;
 	}
@@ -2593,7 +2618,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/chi.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
