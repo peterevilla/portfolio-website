@@ -82,6 +82,22 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	.row {
+
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.work {
+
+		width: 40%;
+
+	}
+
+	,work.image {
+
+		width: 20%;
+	}
 	.features {
 
 		display: flex;
@@ -95,7 +111,7 @@ input, select, textarea {
 	.feature {
 
 		display: flex;
-		flex-wrap: wrap;
+		
 		
 		
 	}
