@@ -163,7 +163,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: rgb(41, 43, 43);
 		font-weight: 400;
 	}
 
@@ -173,6 +173,8 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-weight: 400;
+		color: rgb(41, 43, 43);
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2727,6 +2729,8 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		
+
 	}
 
 		#main > section {
